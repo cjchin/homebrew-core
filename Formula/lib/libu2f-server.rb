@@ -7,20 +7,13 @@ class Libu2fServer < Formula
   revision 3
 
   bottle do
-    rebuild 1
-    sha256 cellar: :any,                 arm64_tahoe:    "bfeddb8ea5570906354b711dd21758baaa28c612ddde47ec17f22f30c2d8b9ac"
-    sha256 cellar: :any,                 arm64_sequoia:  "ba4f595c0638e3c766d45b0bae4ae189482ef6e14611073cee2c805d8ff947aa"
-    sha256 cellar: :any,                 arm64_sonoma:   "02828c78b609450b8675cda154506543bdd3b6c7290af5ff8dc6031e28d1073f"
-    sha256 cellar: :any,                 arm64_ventura:  "3ee5815ba1a374c9a85206466bd83b20f5de894ede219927281bf17cf4a1f415"
-    sha256 cellar: :any,                 arm64_monterey: "78d60a35c880f7f993f07eb38dc6d1944082ca6325d88c6ee4f22a34fe9cb50f"
-    sha256 cellar: :any,                 arm64_big_sur:  "8e294e52f4bc809affacf5a39d61eda94851600d345c946c942bbeda202dc607"
-    sha256 cellar: :any,                 sonoma:         "ac197783bab5879b29b56d80da3c931482313e9e3314fb9c9be7f6a5f083ae0a"
-    sha256 cellar: :any,                 ventura:        "e69be1150f198f72d7ed21bef98e94ae97eb893b68d09cd09b0f8673f5b800e6"
-    sha256 cellar: :any,                 monterey:       "d45bdb7ea77081757ae316157db4dea008f06a2998345f6e3c64c98f46830535"
-    sha256 cellar: :any,                 big_sur:        "f22956d7adce96f3e73bf0e6584f864f2f2aec7137398f5e6a151965f30655fd"
-    sha256 cellar: :any,                 catalina:       "33ecd6fbd1b611fec3ef7cdf3aeb90ddfce9be4cfb70211add5540faa79556ff"
-    sha256 cellar: :any_skip_relocation, arm64_linux:    "380db415620d20a896929d242dfeceae1ee2588ad8fd18544fef87b3f10a2d0c"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "c7e4dfb9db89bfc5720aba123638286a77d5d76d9bb108a1bf7b2c1bf01ffa6e"
+    rebuild 2
+    sha256 cellar: :any,                 arm64_tahoe:   "1f6dc85655a657696739653856a19b9c40aa78568e7e5a2ea94d5f0c68a3d0da"
+    sha256 cellar: :any,                 arm64_sequoia: "34a43fb5381fdea58efb651c79798f64cb3ea99761781948c6bb5aa7399a5316"
+    sha256 cellar: :any,                 arm64_sonoma:  "0c1d9d77250e1ae7bddaa71d0317d26c051ac7b0a5c7522981936ed284f23aa2"
+    sha256 cellar: :any,                 sonoma:        "d6574a1ff40f123bd2061d0736d628db3049742b74941d6cd2beee5634734111"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "7ace9964e1c7e0bb6bcd6b2da985351b3b27c5fa8a40a58af8a5bfbbbbd60cce"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "dc10a9b905ef6379affe6dafd1cd8226f716bf55b8429d04ae93a7287668988c"
   end
 
   # https://www.yubico.com/support/terms-conditions/yubico-end-of-life-policy/eol-products/
