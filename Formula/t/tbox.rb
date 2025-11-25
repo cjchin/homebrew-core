@@ -4,7 +4,7 @@ class Tbox < Formula
   url "https://github.com/tboox/tbox/archive/refs/tags/v1.7.9.tar.gz"
   sha256 "8d4bba88bb279c4ff71677d15f8bfc20dfbdc3b4eee27b540fb979fe5af65e56"
   license "Apache-2.0"
-  head "https://github.com/tboox/tbox.git", branch: "master"
+  head "https://github.com/tboox/tbox.git", branch: "dev"
 
   livecheck do
     url :stable
