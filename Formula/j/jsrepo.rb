@@ -1,8 +1,8 @@
 class Jsrepo < Formula
   desc "Build and distribute your code"
   homepage "https://jsrepo.dev/"
-  url "https://registry.npmjs.org/jsrepo/-/jsrepo-2.5.2.tgz"
-  sha256 "71fcac7345be192ec5ffdfffdd3087a95f4fd18352966c51cca6fc657cd26610"
+  url "https://registry.npmjs.org/jsrepo/-/jsrepo-3.0.5.tgz"
+  sha256 "bcd03ab69be20c64c30ba74029fd8c585543315b600badde9b9291ac5eee2d94"
   license "MIT"
 
   bottle do
